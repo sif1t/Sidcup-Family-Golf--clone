@@ -11,15 +11,16 @@ html, body{
     width: 100%;
 }
 
-
+/* navabar start  */
 #nav{
-    height: 145px;
+    height: 100px;
     width: 100%;
     background-color: red;
     display: flex;
     align-items: center;
     padding: 0 150px;
-    gap: 40px;
+    position: fixed;
+    gap: 50px;
     justify-content: flex-start;
 }
 
@@ -28,4 +29,11 @@ html, body{
 }
 #nav h4{
     text-transform: uppercase;
+    font-weight: 500;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
