@@ -82,3 +82,8 @@ video{
     font-weight: 500;
     width: 40%;
 }
+
+#page2{
+    height: 100vh;
+    width: 100%;
+}
