@@ -281,15 +281,23 @@ video{
     position: relative;
 }
 #page3 p{
-   font-size: 30px;
+   font-size: 35px;
    font-weight: 700;
-   width: 55%;
+   width: 60%;
    line-height: 45px;
    text-align: center;
 }
 
 #page3 img {
-   height: 15px;
-   position: absolute;
+    position: absolute;
+   height: 60px;
+}
+#page3 #colon1{
+    left: 15%;
+    top: 25%;
+}
+#page3 #colon2{
+    bottom: 30%;
+    right: 15%;
 }
 
