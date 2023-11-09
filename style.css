@@ -271,6 +271,8 @@ video{
    width: 14%;
 }
 
+/* page3  */
+
 #page3{
     height: 100vh;
     width: 100%;
@@ -301,3 +303,42 @@ video{
     right: 15%;
 }
 
+/* page4  */
+#page4 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.elem{
+    height: 70%;
+    width: 26%;
+   overflow: hidden;
+   border-radius: 20px;
+   position: relative;
+}
+
+.elem h2{
+    height: 100%;
+    width: 100%;
+    background-color: #91B508;
+    color: #000;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.5s;
+    justify-content: center;
+    font-size: 40px;
+    position: absolute;
+    z-index: 10;
+}
+.elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.elem:hover h2{
+    color: #fff;
+    background-color: transparent;
+}
