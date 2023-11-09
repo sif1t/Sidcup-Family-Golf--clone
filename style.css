@@ -8,7 +8,6 @@
 
 html, body{
     height: 100%;
-    perspective: 800px;
     width: 100%;
 }
 
@@ -271,3 +270,5 @@ video{
    object-fit: cover;
    width: 14%;
 }
+
+
