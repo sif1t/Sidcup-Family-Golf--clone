@@ -6,6 +6,11 @@
     color: #fff;
 }
 
+*::selection{
+    background-color: black;
+    color: #39A931;
+}
+
 html, body{
     height: 100%;
     width: 100%;
@@ -74,6 +79,30 @@ video{
     text-align: center;
     z-index: 10;
 }
+
+#page1 #arrow{
+    height: 250px;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid #91B508;
+    position: absolute;
+    display: flex;
+    left: -2%;
+    bottom: -2%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+}
+#page1 #arrow i {
+    font-size: 50px;
+    font-weight: 100;
+}
+#page1 #arrow:hover{
+    scale: 0.4;
+    background-color: #91B508;
+}
+
 #page1 h1{
     font-size: 140px;
     font-weight: 900;
@@ -311,6 +340,7 @@ video{
     align-items: center;
     justify-content: center;
     gap: 70px;
+    position: relative;
 }
 .elem{
     height: 70%;
@@ -337,8 +367,23 @@ video{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all ease 0.5s;
+    scale: 1.1;
 }
 .elem:hover h2{
     color: #fff;
     background-color: transparent;
+}
+
+.elem:hover img{
+    scale: 1;
+}
+#page4 h1{
+    font-size: 112PX;
+    position: absolute;
+    top: -4%;
+    font-weight: 900;
+    font-family: gilroy;
+    color: #000;
+    -webkit-text-stroke: 2px #fff;
 }
